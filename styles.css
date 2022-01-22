@@ -45,8 +45,9 @@ h1 {
 }
 
 #top-img {
-    width: 350px;
+    width: 450px;
     height: auto;
+    margin-bottom: 16px;
 }
 
 .button {
