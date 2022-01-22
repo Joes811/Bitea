@@ -27,13 +27,16 @@ ul {
     display: flex;
     gap: 16px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .intro {
     background-color: #1f2937;
     display: flex;
     color: #e5e7eb;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -41,17 +44,20 @@ h1 {
     font-weight: bolder;
     color: #f9faf8;
     display: flex;
+    flex-wrap: wrap;
     
 }
 
 #top-img {
     width: 450px;
     height: auto;
-    margin-bottom: 16px;
+    margin-bottom: 58px;
+    flex-wrap: wrap;
 }
 
 .button {
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -60,6 +66,3 @@ h1 {
     
 }
 
-.intro-para {
-    
-}
