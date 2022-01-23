@@ -111,6 +111,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 /* Block 3 */
@@ -128,6 +129,7 @@ button {
     color: #1f2937;
     font-style: italic;
     font-weight: 100;
+    padding-top: 58px;
 }
 
 .sig {
@@ -138,3 +140,41 @@ button {
 }
 
 /* Block 4 */
+
+.block-four {
+    display: flex;
+    flex-direction: column;
+    padding: 29px 350px 29px 350px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.header-three {
+    display: flex;
+    font-weight: bold;
+}
+
+.signup-para {
+    display: flex;
+
+}
+
+.button {
+    display: flex;
+    border-radius: 5px;
+
+}
+
+/* BLock 5 */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
