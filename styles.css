@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 /* Block one */
@@ -81,6 +81,7 @@ button {
 .body {
     display: flex;
     padding: 0 350px;
+    flex-direction: column;
 }
 
 .header-two {
@@ -89,17 +90,16 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    
     align-items: center;
 }
 
 .imgs {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 58px;
 }
 
 .small-img {
-    display: flex;
     width: 225px;
     height: 180px;
     border-radius: 8px;
@@ -107,3 +107,34 @@ button {
     border-color: #3882f6;
 }
 
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Block 3 */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 0px 350px;
+}
+
+.quote-para {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.sig {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Block 4 */
