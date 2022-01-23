@@ -144,9 +144,9 @@ button {
 .block-four {
     display: flex;
     flex-direction: column;
-    padding: 29px 350px 29px 350px;
-    margin-top: 29px;
-    margin-bottom: 29px;
+    padding: 30px 350px 30px 350px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .sign-up {
@@ -154,27 +154,21 @@ button {
     background-color: #3882f6;
     flex-direction: column;
     border-radius: 12px;
+    color: #e5e7eb;
 }
 
-.header-three {
+.blockfour-text {
     display: flex;
-    font-weight: bold;
+    font-size: 18px;
 }
 
-.signup-para {
-    display: flex;
 
-}
-
-.button {
-    display: flex;
-    border-radius: 5px;
-
-}
 
 /* BLock 5 */
 
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
