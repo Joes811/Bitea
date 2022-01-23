@@ -5,6 +5,8 @@ body {
     font-family: Roboto;
 }
 
+/* Block one */
+
 .header {
     display: flex;
     background-color: #1f2937;
@@ -27,7 +29,7 @@ body {
 }
 
 
-ul {
+.nav {
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -72,6 +74,36 @@ button {
 
 .text {
     max-width: 450px;
+}
+
+/* Block 2 */
+
+.body {
+    display: flex;
+    padding: 0 350px;
+}
+
+.header-two {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
     
+    align-items: center;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+}
+
+.small-img {
+    display: flex;
+    width: 225px;
+    height: 180px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #3882f6;
 }
 
