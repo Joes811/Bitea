@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: Roboto;
 }
 
@@ -6,59 +9,65 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #f9faf8;
+    padding: 0px 350px;
 }
 
 .header-links {
     color: #e5e7eb;
     font-size: 18px;
+    
 }
 
 .logo {
     font-size: 24px;
     color: #e5e7eb;
-    margin: 8px 16px;
     font-weight: bold;
 }
+
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .intro {
     background-color: #1f2937;
     display: flex;
     color: #e5e7eb;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
+    padding: 0px 350px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    display: flex;
-    flex-wrap: wrap;
-    
+    display: flex;   
 }
 
 #top-img {
     width: 450px;
     height: auto;
     margin-bottom: 58px;
-    flex-wrap: wrap;
+
 }
 
-.button {
+button {
     display: flex;
-    flex-wrap: wrap;
-    
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 125px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    border: 0;
+
 }
 
 .text {
